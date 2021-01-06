@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    background-color: rgb(248, 244, 248);
+    font-family: 'Barlow', sans-serif;
+}
+
+/* start of intro section */
+.intro {
+    
+}
+.section-height {
+    width: 100%;
+    height: 800px;
+    border: 3px solid;
+
+}
+
+.navbar-item {
+    float: left;
+    margin: 10px;
+    text-align: right;
+}
+.navbar {
+    width: 100%;
+    height: 70px;
+    padding-left: 1200px;
+    padding-top: 10px;
+
+}
+.half-width {
+    width: 35%;
+    float: left;
+    margin 5%;
+    /* border: 1px solid ; */
+}
+.bio img {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.bio h1{
+    text-transform: uppercase;
+    font-size: 70px;
+}
+
+.name {
+    color:rgb(181, 93, 192);
+    margin-bottom: 25px;
+}
+
+.bio p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.small-description {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.bio a {
+    font-size: 25px;
+    text-transform: capitalize;
+    background-color: lightcoral;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.link {
+    font-size: 25px;
+    text-transform: capitalize;
+    background-color: lightcoral;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.welcome {
+    padding-left: 5%;
+}
+.introduction {
+    margin-top: 150px;
+}
+.bio {
+    margin-left: 100px;
+}
+
+
+/* end of intro section */
+/* start of about section */
+.about{
+    padding: 5%;
+}
+
+.about img{
+    width: 100%;
+    padding-left: 10px;
+}
+.about-description {
+
+    margin:100px 20px 50px 200px;
+
+    padding: 100px;
+}
+.about h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
+    opacity: .8;
+    padding-bottom: 20px;
+}
+/* end of about section */
+/* start of education section */
+.education {
+    border: 1px solid;
+}
+/* end of education section */
+/* start of latest project section */
+/* end of latest project section */
+/* start of contact section */
+/* end of contact section */
