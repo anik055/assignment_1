@@ -5,101 +5,85 @@
 }
 
 /* start of intro section */
-.intro {
-    
-}
+
 .section-height {
     width: 100%;
     height: 800px;
-    border: 3px solid;
-
 }
-
 .navbar-item {
-    float: left;
-    margin: 10px;
-    text-align: right;
+    float: right;
+    margin: 20px;
 }
 .navbar {
     width: 100%;
     height: 70px;
-    padding-left: 1200px;
     padding-top: 10px;
-
+    text-align: center;
+    margin-right: 20px;
+}
+.cont{
+    padding-right:30px;
 }
 .half-width {
     width: 35%;
     float: left;
-    margin 5%;
-    /* border: 1px solid ; */
+    margin-left: 5%;
+    margin-top: 10%;
 }
 .bio img {
     width: 100%;
     margin-top: 10%;
 }
-
 .bio h1{
     text-transform: uppercase;
-    font-size: 70px;
+    font-size: 4.5vw;
 }
-
 .name {
     color:rgb(181, 93, 192);
     margin-bottom: 25px;
 }
-
-.bio p{
-    font-size: 20px;
-    margin-bottom: 40px;
-}
 .small-description {
     font-size: 20px;
     margin-bottom: 30px;
-}
-.bio a {
-    font-size: 25px;
-    text-transform: capitalize;
-    background-color: lightcoral;
-    padding: 15px 30px;
-    text-decoration: none;
-    margin-top: 10px;
-    border-radius: 10px;
+    text-align: justify;
 }
 .link {
-    font-size: 25px;
+    font-size: 20px;
     text-transform: capitalize;
     background-color: lightcoral;
     padding: 15px 30px;
     text-decoration: none;
     margin-top: 10px;
     border-radius: 10px;
+    color: white;
 }
 .welcome {
     padding-left: 5%;
+    margin-top: 5%;
 }
 .introduction {
-    margin-top: 150px;
+    margin-top: 10%;
 }
 .bio {
-    margin-left: 100px;
+    margin-left: 5%;
+    padding-left: 5%;
 }
-
 
 /* end of intro section */
 /* start of about section */
-.about{
-    padding: 5%;
-}
 
+.about {
+    width: 100%;
+}
 .about img{
     width: 100%;
-    padding-left: 10px;
+    margin-top: 0%;
+    padding-left: 14%;
 }
 .about-description {
-
-    margin:100px 20px 50px 200px;
-
-    padding: 100px;
+    margin-top: 5%;
+    padding-top: 10%;
+    padding-left: 5%;
 }
 .about h1{
     text-transform: uppercase;
@@ -108,13 +92,124 @@
     opacity: .8;
     padding-bottom: 20px;
 }
+
 /* end of about section */
 /* start of education section */
-.education {
-    border: 1px solid;
+
+.title-name {
+    text-transform: uppercase;
+    font-size: 4vw;
+    color: black;
+    opacity: .8;
+    padding-bottom: 20px;
+}
+.title{
+    font-size: 50px;
+    text-align: center;
+    opacity: .8;
+    padding-bottom: 70px;
+}
+.one-third-width {
+    width: 26%;
+    float: left;
+    margin: 1%;
+    margin-top: 2%;
+    height:400px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 30px;
+    box-shadow: 5px 10px 30px gray;
+}
+.three-box{
+    padding-left: 13%;
+    padding-right: 5%;
+}
+.category{
+    text-align: center;
+}
+.category-name{
+    text-align: center;
+    padding-bottom: 20px;
+    color: coral;
+    opacity: .8;
 }
 /* end of education section */
+
 /* start of latest project section */
+.project {
+    padding-left: 3%;
+}
+.project img {
+    width: 100%;
+}
+.project h2{
+    text-transform: uppercase;
+}
+.project span {
+    color: coral;
+}
+.project h1 {
+    font-size: 30px;
+    padding: 10px;
+}
+.project p{
+    padding: 10px;
+    font-size: 17px;
+}
+.project-sample {
+    width: 24%;
+}
 /* end of latest project section */
 /* start of contact section */
+
+.banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner img {
+    width: 60%;
+}
+.left {
+    position: absolute;
+    left: 25%;
+    top: 35%;
+    background-color: transparent;
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.right {
+    position: absolute;
+    top: 40%;
+    right: 25%;
+    font-size: 130%;
+    background-image: linear-gradient(45deg, coral, rgb(210, 33, 226));
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+.banner a{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+}
+.other-link {
+    text-align: center;
+}
+.connection{
+    margin-top: 10%;
+}
+.connection h2{
+    font-size: 2.5vw;
+    opacity: .6;
+    margin-bottom: 20px;
+}
+.connection h1{
+    font-size: 4vw;
+    margin-bottom: 25px;
+}
+.connection img{
+    width: 40px;
+    margin-right: 10px;
+}
 /* end of contact section */
